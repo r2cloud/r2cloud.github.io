@@ -1,0 +1,33 @@
+{
+  "name": "r2cloud.github.io",
+  "version": "1.0.0",
+  "description": "radare2 enterprise cloud suite",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r2cloud/r2cloud.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r2cloud/r2cloud.github.io/issues"
+  },
+  "homepage": "https://github.com/r2cloud/r2cloud.github.io#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@wasmer/wasm-terminal": "^0.12.0",
+    "@wasmer/wasm-transformer": "^0.12.0",
+    "lodash": "^4.17.21",
+    "util": "^0.12.5"
+  }
+}
